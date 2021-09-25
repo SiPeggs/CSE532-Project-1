@@ -1,0 +1,149 @@
+
+Sample data for the PharmDB project
+===================================
+
+Clients, prescriptions, etc.
+----------------------------
+P1, Joe, addr1
+    Prescriptions:
+       (D1,Depression,20150207,20150401,$160)
+       (D2,Pneumonia,20150512,20150527,$40)
+       (D3,Pneumonia,20150308,20150408,$50)
+    Takes:
+       D2, D3
+
+P2, Mary, addr1
+    Prescriptions:
+       (D4,Pneumonia,20150314,20150408,$40)
+       (D2,Smallpox,20150214,20150428,$20)
+       (D5,Depression,20150614,20150728,$180)
+    Takes:
+       D2, D5
+ 
+P3, Irene, addr3
+    Prescriptions:
+       (D4,Pneumonia,20150214,20150428,$80)
+       (D3,Tonsillitis,20150214,20150428,$10)
+       (D3,Tonsillitis,20160114,20160318,$15)
+       (D5,Arthritis,20150614,20150728,$80)   
+    Takes:
+       D3,D4
+   
+ 
+P4, Sally, addr4
+    Prescriptions:
+       (D3,Pneumonia,20150515,20150711,$80)
+       (D5,Depression,20150530,20150701,$90)
+       (D7,Fever,20150610,20150621,$10)
+    Takes: 
+       D3, D7
+ 
+P5, Mary, addr5
+    Prescriptions:
+        (D8, Hepatitis,20160207,20150308,$60)
+        (D5, Diarrhea,20151221,20160218,$20)
+        (D7, Fever,20160130,20160216,$10)
+    Takes: 
+         D8, D5, D7
+ 
+P6, Jove, addr5
+    Prescriptions:
+        (D6,Fever,20150302,20150409,$15)
+        (D4,Tuberculosis,20150202,20150609,$160)
+        (D5,Diarrhea,20150402,20150408,$160)
+        (D8,Fever,20150402,20150408,$60).   
+    Takes: 
+        D4, D5
+ 
+P7, Dean, addr1
+    Prescriptions:
+        (D8,Hepatitis,20150609,20150929,$280)
+        (D3,Pneumonia,20150601,20150629,$60)
+        (D8,Diarrhea,20150630,20150705,$60)
+        (D3,Pneumonia,20160106,20160306,$100) 
+        (D7,Fever,20160110,20160216,$15) 
+        (D1,Depression,20160120,20160205,$60) 
+    Takes: 
+        D8, D3, D7
+
+P8, Ruth, addr8
+    Prescriptions:
+        (D4,Tuberculosis,20150207,20150401,$90)
+        (D5,Depression,20150701,20150801, $90)
+        (D2,Smallpox,20150701,20150711, $20)
+    Takes: 
+        D4, D5, D2
+ 
+P9, Alice, addr9
+    Prescriptions:
+        (D3,Pneumonia,20150302,20150407, $40)
+        (D6,Fever,20150306,20150317,$10)
+        (D7,Arthritis,20150302,20150607,$180)
+    Takes: 
+        D3, D6, D7
+ 
+P10, David, addr3
+    Prescriptions:
+        (D8,Diarrhea,20150308,20150428,$30)
+        (D1,Depression,20150308,20150428,$120)
+        (D3,Tonsillitis,20150408,20150601,$60)
+    Takes: 
+        D1, D8
+ 
+P11, Cindy, addr8 
+    Prescriptions:
+         (D7,Arthritis,20160207,20160317,$40)
+         (D1,Depression,20151225,20160205,$150)
+         (D5,Diarrhea,20151225,20160205,$10)
+         (D7,Fever,20150202,20160207,$10)
+    Takes: 
+          D7, D5, D1
+ 
+P12, Debbie, addr5
+    Prescriptions:
+        (D3,Tonsillitis,20150301,20150420,$20)
+        (D2,Smallpox,20150318,20150428,$30)
+        (D8,Hepatitis,20150308,20150420,$100)
+    Takes: 
+        D2, D8
+
+     
+
+Drugs and the conditions they treat:
+------------------------------------
+   D1:  Depression
+   D2:  Pneumonia, Smallpox
+   D3:  Pneumonia, Tonsillitis
+   D4:  Pneumonia, Tuberculosis
+   D5:  Depression, Diarrhea
+   D6:  Fever, Tonsillitis
+   D7:  Arthritis, Fever
+   D8:  Hepatitis, Diarrhea
+   D9:  Arthritis, Fever
+   D10: Depression, Diarrhea
+   D11: Hepatitis, Diarrhea
+   D12: Pneumonia, Tonsillitis, Fever
+
+Drug interaction:
+-----------------
+   Diarrhea:     D4, D1
+                 D8, D3
+   Smallpox:     D4, D5
+   Depression:   D3, D7
+   Tuberculosis: D5, D6
+   Fever:        D8, D5
+                 D5, D7
+                 D12, D7  
+
+Control dates:
+--------------
+    20150315
+    20150405
+    20150510
+    20150530
+    20150615
+    20150702
+    20160120
+    20160201
+    20160215
+    20160218

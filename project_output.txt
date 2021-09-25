@@ -1,0 +1,148 @@
+----- Query 1------
+
+?Name = Jove
+
+?Name = Ruth
+
+2 solution(s)
+
+
+
+----- Query 2------
+
+?Name = Cindy
+?Pair = D7 + D5
+
+?Name = Dean
+?Pair = D7 + D3
+
+?Name = Irene
+?Pair = D5 - wrong_drug
+
+?Name = Jove
+?Pair = D6 + D5
+
+?Name = Jove
+?Pair = D8 + D5
+
+?Name = Jove
+?Pair = D8 - wrong_drug
+
+?Name = Mary
+?Pair = D7 + D5
+
+?Name = Sally
+?Pair = D7 + D3
+
+?Name = Sally
+?Pair = D7 + D5
+
+9 solution(s)
+
+
+
+----- Query 3------
+
+?Name = Alice
+
+?Name = David
+
+?Name = Joe
+
+?Name = Mary
+
+4 solution(s)
+
+
+
+----- Query 4------
+
+?Name = Alice
+
+?Name = Cindy
+
+?Name = Irene
+
+?Name = Mary
+
+?Name = Ruth
+
+5 solution(s)
+
+
+
+----- Query 5------
+
+?Pair = D3 + D4
+
+?Pair = D3 + D5
+
+?Pair = D3 + D6
+
+?Pair = D4 + D6
+
+?Pair = D4 + D7
+
+?Pair = D4 + D8
+
+?Pair = D6 + D7
+
+?Pair = D6 + D8
+
+?Pair = D7 + D8
+
+9 solution(s)
+
+
+
+----- Query 6 (Bonus)------
+
+?Client = Cindy
+?BadPair = D7 + D5
+?Alternative = for(D5) - D10
+
+?Client = Cindy
+?BadPair = D7 + D5
+?Alternative = for(D7) - D9
+
+?Client = Dean
+?BadPair = D7 + D3
+?Alternative = for(D7) - D9
+
+?Client = Jove
+?BadPair = D6 + D5
+?Alternative = for(D5) - D10
+
+?Client = Jove
+?BadPair = D6 + D5
+?Alternative = for(D6) - D12
+
+?Client = Jove
+?BadPair = D8 + D5
+?Alternative = for(D5) - D10
+
+?Client = Jove
+?BadPair = D8 + D5
+?Alternative = for(D8) - D11
+
+?Client = Mary
+?BadPair = D7 + D5
+?Alternative = for(D5) - D10
+
+?Client = Mary
+?BadPair = D7 + D5
+?Alternative = for(D7) - D9
+
+?Client = Sally
+?BadPair = D7 + D3
+?Alternative = for(D7) - D9
+
+?Client = Sally
+?BadPair = D7 + D5
+?Alternative = for(D5) - D10
+
+?Client = Sally
+?BadPair = D7 + D5
+?Alternative = for(D7) - D9
+
+12 solution(s)
